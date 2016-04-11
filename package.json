@@ -1,0 +1,23 @@
+{
+  "name": "json-db",
+  "version": "1.0.0",
+  "description": "Simple database api using JSON files to store data.",
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webNeat/json-db.git"
+  },
+  "keywords": [
+    "json",
+    "database"
+  ],
+  "author": "Amine Ben hammou <webneat@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webNeat/json-db/issues"
+  },
+  "homepage": "https://github.com/webNeat/json-db#readme"
+}
