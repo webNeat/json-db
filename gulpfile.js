@@ -18,12 +18,14 @@ gulp.task('babel-test', () => {
         .pipe(gulp.dest('test'))
 })
 
+gulp.task('babel', ['babel-lib', 'babel-test'])
+
 gulp.task('dox', () => {
     return gulp.src('src/lib/**/*.js')
         .pipe(dox())
         .pipe(gulp.dest('doc-db'))
 })
 
-gulp.task('default', () => {
+gulp.task('default', ['babel', 'dox'], () => {
     return gulp.watch('src/**/*', ['babel-lib', 'babel-test', 'dox'])
 })
