@@ -26,7 +26,8 @@
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
     "gulp-dox": "^0.1.6",
-    "mocha": "^2.4.5"
+    "mocha": "^2.4.5",
+    "should": "^8.3.0"
   },
   "dependencies": {
     "jsonfile": "^2.2.3",
