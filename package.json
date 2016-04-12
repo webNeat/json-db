@@ -1,6 +1,6 @@
 {
   "name": "json-db",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Simple database api using JSON files to store data.",
   "main": "lib/main.js",
   "scripts": {
@@ -22,8 +22,11 @@
   "homepage": "https://github.com/webNeat/json-db#readme",
   "devDependencies": {
     "babel-preset-es2015": "^6.6.0",
+    "dox": "^0.8.1",
     "gulp": "^3.9.1",
-    "gulp-babel": "^6.1.2"
+    "gulp-babel": "^6.1.2",
+    "gulp-dox": "^0.1.6",
+    "mocha": "^2.4.5"
   },
   "dependencies": {
     "jsonfile": "^2.2.3",
