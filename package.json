@@ -4,6 +4,7 @@
   "description": "Simple database api using JSON files to store data.",
   "main": "lib/main.js",
   "scripts": {
+    "build": "gulp babel",
     "test": "mocha"
   },
   "repository": {

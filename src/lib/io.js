@@ -12,9 +12,6 @@ import {
  * Synchronousely from the database and return the result.
  *
  * @function
- * @data
- * @field {String} name
- * @field {Number} age
  * @since v0.1.0
  * @category IO
  * @signature DB -> String -> (Collection -> *) | null -> IO
