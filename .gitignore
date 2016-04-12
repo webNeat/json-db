@@ -2,3 +2,5 @@ node_modules
 *.sublime-*
 temp
 doc-db
+lib
+test/*.js
