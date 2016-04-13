@@ -6,7 +6,7 @@ import {
     readFileSync, 
     writeFileSync } from 'jsonfile'
 
-import {read} from '../lib/io.js'
+import {read, write} from '../lib/io.js'
 
 // mocking the database
 let db = { 
@@ -77,7 +77,7 @@ describe('write', () => {
     })
 
     it('writes the collection synchronousely when the callback is null', () => {
-        write(db, 'users', collection)
+        write(db, 'users', collection, null)
         readFileSync(collectionFile).should.deepEqual(collection)
     })
 })
