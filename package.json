@@ -2,7 +2,7 @@
   "name": "json-db",
   "version": "0.1.0",
   "description": "Simple database api using JSON files to store data.",
-  "main": "lib/main.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "gulp babel && mocha"
   },
