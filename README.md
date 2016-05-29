@@ -8,7 +8,7 @@ This is a small [Node](https://nodejs.org) module to provide an easy database ap
 
 ## Overview of the usage (May change within development)
 
-```
+```javascript
 import {db, schema, type, constraint, relation, query, model} from 'json-db'
 import {pipe} from 'ramda'
 
