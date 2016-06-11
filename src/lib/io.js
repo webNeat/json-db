@@ -61,8 +61,7 @@ export const read = curry((db, name, handle) => {
  * @param {Function} callback
  * @return {IO} The collection will be written to the database
  * @see read
- * @example
- * ```
+ * @playground
  * var usersCollection = [
  *     {name: 'Foo', age: 32},
  *     {name: 'Bar', age: 23},
@@ -75,7 +74,6 @@ export const read = curry((db, name, handle) => {
  * })
  * // Synchronousely
  * writeUsers(usersCollection, null)
- * ```
  */
 export const write = curry((db, name, collection, callback) => {
     let filename = path.join(db.folder, name + '.json')
