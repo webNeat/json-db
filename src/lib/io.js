@@ -7,6 +7,7 @@ import {
     writeFileSync } from 'jsonfile'
 
 /**
+ * `DB -> String -> (Collection -> *) | null -> IO`
  * Reads a collection asynchronousely from the database and pass the result 
  * to the `handle` callback. If `handle == null`, it will read the collection
  * synchronousely from the database and return the result.
@@ -14,7 +15,6 @@ import {
  * @function
  * @since v0.1.0
  * @signature DB -> String -> (Collection -> *) | null -> IO
- * @summary DB -> String -> (Collection -> *) | null -> IO
  * @category IO
  * @param {DB} db
  * @param {String} name
