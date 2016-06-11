@@ -1,2 +1,5 @@
 dir: src/lib
 packageJson: package.json
+branches:
+  - master
+  - doclets-lab
